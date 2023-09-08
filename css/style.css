@@ -1,0 +1,61 @@
+:root {
+    --main-text-color: gray;
+    --highlight-color: blue;
+    --accent-color: #ff00ff;
+    --black-color: black;
+}
+
+header a {
+    color: var(--highlight-color);
+}
+
+header ul:last-child li:first-child a,
+header ul:last-child li:last-child a {
+    color: var(--main-text-color);
+}
+
+section li:nth-child(1) h2,
+section li:nth-child(1) p,
+section li:nth-child(2) h2,
+section li:nth-child(2) p,
+section li:nth-child(3) h2,
+section li:nth-child(3) p,
+section li:nth-child(4) h2,
+section li:nth-child(4) p {
+    color: var(--main-text-color);
+}
+
+main section:nth-child(3) h2,
+main section:nth-child(3) ul li img {
+    border-color: var(--main-text-color);
+}
+
+main section:nth-child(4) h2,
+main section:nth-child(4) article h3,
+main section:nth-child(4) article p,
+section li:nth-child(1) h2,
+section li:nth-child(2) h2,
+section li:nth-child(3) h2,
+section li:nth-child(4) h2 {
+    color: var(--black-color);
+}
+
+footer h3,
+footer p {
+    color: var(--main-text-color);
+}
+
+main section:nth-child(1) h1,
+main section:nth-child(1) button,
+main section:nth-child(1) p {
+    color: var(--main-text-color);
+}
+
+main section:nth-child(1) button {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+footer p:last-child {
+    color: var(--highlight-color);
+}
